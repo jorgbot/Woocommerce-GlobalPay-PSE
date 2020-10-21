@@ -1,0 +1,13 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
+define('API_LOGIN_DEV',"NAME APP SERVER");
+define('API_KEY_DEV',"KEY SERVER");
+define('API_BANKS', 'https://noccapi-stg.globalpay.com.co/banks/PSE/');
+define('API_CURRIER', 'PSE');
+define('API_ORDER_BANK', 'https://noccapi-stg.globalpay.com.co/pse/order-pay/PSE-10/');
+define('API_ORDER', 'https://noccapi-stg.globalpay.com.co/order/');
+define('D_FISCAL_NUMBER', [['CC', "Cédula de ciudadanía."],['CE',	"Cédula de extranjería."],['NIT',	"Número de identificación tributario."],['TI',	"Tarjeta de identidad."],['PP',	"Pasaporte."],['IDC',	"Identificador único de cliente, para el caso de ID's únicos de clientes/usuarios de servicios públicos."],['CEL',	"(*) En caso de identificarse a través de la línea del móvil."],['RC',	"Registro civil de nacimiento."],['DE',	"Documento de identificación extranjero."],['SE_NIT',	"(**) Sociedad Extranjera sin Nit."],['FIDE',	"(**) Fideicomiso."],['NIT_M',	"(**) Nit Menores."],['RIF_V',	"(**) RIF Venezuela."],['NIT_E',	"(**) Nit Extranjería."],['NIT_N',	"(**) Nit Persona Natural."],['C_DIP',	"(**) Carnet Diplomático."],['RUT',	"(**) RUT."]]);
+define('D_USER_TYPE',[['N', "Persona natural."],['J', "Persona juridica."]]);
+define('D_DEV_REFERENCE',['pending' => 'pending', 'rejected' => 'rejected', 'failure' => 'failure', 'approved' => 'failure']);
