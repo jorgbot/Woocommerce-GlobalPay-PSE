@@ -20,9 +20,8 @@ $bank_code = ( $enviroment == 'yes') ? '1022' : $requestBodyJs['payment-pse-bank
 $dev_ref = ( $enviroment == 'yes') ? (isset($requestBodyJs['payment-force-status']) ? $requestBodyJs['payment-force-status'] : 'pending') : $requestBodyJs['payment-pse-order-id'];
 
 $webhook_p = plugins_url('gp-woocommerce-order-webhook.php', __FILE__);
-if($enviroment == 'yes'){
-	$webhook_p.= '?dev_reference='.$requestBodyJs['payment-pse-order-id'];
-}
+$webhook_p.= '?dev_reference='.$requestBodyJs['payment-pse-order-id'];
+
 $jsonRequest = '{
             "carrier":{
                "id":"PSE",

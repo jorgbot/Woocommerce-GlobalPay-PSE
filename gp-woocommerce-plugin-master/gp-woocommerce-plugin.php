@@ -14,6 +14,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 /*
 Version: 1.2
+Description: Support Payment PSE
 Author: Diego Mesa
 Author URI: https://dialmedu.github.io
 */
@@ -135,22 +136,24 @@ if (!function_exists('gp_woocommerce_plugin')) {
         $orderData = $this->get_params_post($orderId);
         $orderDataJSON = json_encode($orderData);
 		$logo_pse = plugins_url('/assets/imgs/logo_pse.png', __FILE__);
+		$logo_global = plugins_url('/assets/imgs/logo_globalpay.png', __FILE__);
         ?>
           <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>">
 
-          <div id="mensajeSucccess" class="hide"> <p class="alert alert-success" ><?php _e('Your payment has been made successfully. Thank you for your purchase.', 'gp_woocommerce'); ?></p> </div>
-          <div id="mensajeFailed" class="hide"> <p class="alert alert-warning"><?php _e('An error occurred while processing your payment and could not be made. Try another Credit Card.', 'gp_woocommerce'); ?></p> </div>
+          <div id="mensajeSucccess" class="hide"> <p class="alert alert-success" ><?= __('Su pago ha sido realizado con éxito. Gracias por su compra.', 'gp_woocommerce'); ?></p> </div>
+          <div id="mensajeFailed" class="hide"> <p class="alert alert-warning"><?php _e('Se produjo un error al procesar su pago y no se pudo realizar. Pruebe con otra tarjeta de crédito.', 'gp_woocommerce'); ?></p> </div>
 
           <div id="buttonreturn" class="hide">
             <p>
-              <a class="btn-tienda" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>"><?php _e( 'Return to Store', 'woocommerce' ) ?></a>
+              <a class="btn-tienda" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>"><?php _e( '
+Regresar a la tienda', 'woocommerce' ) ?></a>
             </p>
           </div>
 
           <script src="https://cdn.globalpay.com.co/ccapi/sdk/payment_checkout_2.0.0.min.js"></script>
 			<div class="payment-options">
-		   	<button class="js-payment-checkout"><?php _e('Purchase', 'gp_woocommerce'); ?></button>
-          	<button class="js-payment-pse-checkout"><img src="<?php echo $logo_pse;?>"><?php _e('Purchase', 'gp_woocommerce'); ?></button>
+		   	<button class="js-payment-checkout"><img src="<?php echo $logo_global;?>"><?php _e('Pago por tarjeta', 'gp_woocommerce'); ?></button>
+          	<button class="js-payment-pse-checkout"><img src="<?php echo $logo_pse;?>"><?php _e('Pago por transferencia', 'gp_woocommerce'); ?></button>
 			</div>
 		  <?php $this->get_modal_form_pse_pyment($orderData) ?>
           <div id="orderDataJSON" class="hide">

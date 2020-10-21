@@ -11,8 +11,13 @@
     background-color: #0055a3;
     color: white;
     border: 1px solid #004987;
-    font-size: large;
     cursor: pointer;
+}
+
+.payment-options button {
+    min-width: 200px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
 .js-payment-checkout {
@@ -23,6 +28,7 @@
   line-height:1;
   height:53px;
   padding: 8px;
+  padding-left: 31px;
   text-align: center;
   background: #0fbd71;
   color: #FFF;
@@ -33,6 +39,19 @@
   border-radius: 4px;
   cursor: pointer;
   float: left;
+  position: relative;
+  margin-left: 25px;
+}
+
+.js-payment-checkout img {
+    width: 60px;
+    background-color: #0fbd71;
+    padding: 5px;
+    border-radius: 100%;
+    left: -25px;
+    position: absolute;
+    top: -5px;
+	box-shadow: 2px 4px 5px -3px #0fa966;
 }
 
 .js-payment-pse-checkout {
@@ -45,7 +64,7 @@
   line-height:1;
   height:53px;
   padding: 8px;
-  padding-left: 15px;
+  padding-left: 50px;
   position: relative;
   text-align: center;
   background: #004f93;
