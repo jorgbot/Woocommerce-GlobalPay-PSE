@@ -1,0 +1,221 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GlobalPay WooCommerce Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-16 16:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.1.1"
+
+#: includes/gp-woocommerce-webhook.php:87 includes/gp-woocommerce-order.php:70
+#: includes/gp-woocommerce-order-webhook.php:100
+msgid " and its Authorization Code is: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:69
+#: includes/gp-woocommerce-order-webhook.php:84
+msgid " the reason is chargeback. "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:92
+#: includes/gp-woocommerce-order-webhook.php:105
+msgid " the reason is: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:79
+#: includes/gp-woocommerce-order-webhook.php:92
+msgid " | Authorization_Code: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:78
+#: includes/gp-woocommerce-order-webhook.php:91
+msgid " | Dev_Reference: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:77
+#: includes/gp-woocommerce-order-webhook.php:90
+msgid " | Status_detail: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:80
+#: includes/gp-woocommerce-order-webhook.php:93
+msgid " | Transaction_Code: "
+msgstr ""
+
+#: includes/gp-woocommerce-order.php:70
+msgid ". Transaction Code: "
+msgstr ""
+
+#: gp-woocommerce-plugin.php:143
+msgid ""
+"An error occurred while processing your payment and could not be made. Try "
+"another Credit Card."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:34
+msgid "App Code Client"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:44
+msgid "App Code Server"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:39
+msgid "App Key Client"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:49
+msgid "App Key Server"
+msgstr ""
+
+#: gp-woocommerce-plugin.php:199
+msgid "Banco"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:23
+msgid "Checkout Language"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:18
+msgid "Customer Message"
+msgstr ""
+
+#: includes/gp-woocommerce-order.php:72
+msgid "Error payment"
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:95
+#: includes/gp-woocommerce-order-webhook.php:107
+msgid "Failed Payment"
+msgstr ""
+
+#. Author of the plugin
+msgid "GlobalPay"
+msgstr ""
+
+#: gp-woocommerce-plugin.php:91 includes/admin/gp-woocommerce-settings.php:14
+msgid "GlobalPay Gateway"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:20
+msgid ""
+"GlobalPay is a complete solution for online payments. Safe, easy and fast."
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:76
+#: includes/gp-woocommerce-order-webhook.php:89
+msgid "GlobalPay Response: Status: "
+msgstr ""
+
+#. Name of the plugin
+msgid "GlobalPay WooCommerce Plugin"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://developers.globalpay.com.co/docs/payments/"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:51
+msgid "Key used for reverse communication with GlobalPay Server."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:41
+msgid "Key used to encrypt communication with GlobalPay."
+msgstr ""
+
+#: gp-woocommerce-plugin.php:187
+msgid "Pago con Transferencia"
+msgstr ""
+
+#: gp-woocommerce-plugin.php:153
+msgid "Pago por tarjeta"
+msgstr ""
+
+#: gp-woocommerce-plugin.php:154
+msgid "Pago por transferencia"
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:67
+#: includes/gp-woocommerce-order-webhook.php:82
+msgid "Payment Cancelled"
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:90
+#: includes/gp-woocommerce-order-webhook.php:103
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:5
+msgid "Staging Enviroment"
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:83
+#: includes/gp-woocommerce-order-webhook.php:96
+msgid "Successful Payment"
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:96
+#: includes/gp-woocommerce-order-webhook.php:108
+msgid "The payment fails.: "
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:13
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#. Description of the plugin
+#: gp-woocommerce-plugin.php:59
+msgid ""
+"This module is a solution that allows WooCommerce users to easily process "
+"credit card payments."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:11
+msgid "Title"
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:46
+msgid "Unique identifier in GlobalPay Server."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:36
+msgid "Unique identifier in GlobalPay."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:7
+msgid "Use the GlobalPay Gateway staging environment."
+msgstr ""
+
+#: includes/admin/gp-woocommerce-settings.php:31
+msgid ""
+"User's preferred language for checkout window. English will be used by "
+"default."
+msgstr ""
+
+#: gp-woocommerce-plugin.php:142
+msgid "Your payment has been made successfully. Thank you for your purchase."
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:87
+#: includes/gp-woocommerce-order-webhook.php:100
+msgid "Your payment has been made successfully. Transaction Code: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:92
+#: includes/gp-woocommerce-order-webhook.php:105
+msgid "Your payment has failed. Transaction Code: "
+msgstr ""
+
+#: includes/gp-woocommerce-webhook.php:69
+#: includes/gp-woocommerce-order-webhook.php:84
+msgid "Your payment was cancelled. Transaction Code: "
+msgstr ""
